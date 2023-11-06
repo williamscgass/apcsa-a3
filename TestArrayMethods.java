@@ -3,7 +3,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertArrayEquals;
 import java.util.Arrays;
 
-public class TestCalculator extends Autograder<Object[]> {
+public class TestArrayMethods extends Autograder<Object[]> {
 
     @Test
     public void freePoints() {
