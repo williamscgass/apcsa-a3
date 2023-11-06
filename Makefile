@@ -9,6 +9,7 @@ clean:
 windows-test:
 	javac -cp junit.jar;. ./*.java
 	java -cp junit.jar;hamcrest.jar;. Main
-
+	type RESULTS.txt
+	
 windows-clean:
 	del /s *.class
