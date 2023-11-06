@@ -4,5 +4,11 @@ test:
 	cat RESULTS.txt
 
 clean:
-	rm -rf *.class
-	rm -rf RESULTS.txt
+	rm *.class
+
+windows-test:
+	javac -cp junit.jar;. ./*.java
+	java -cp junit.jar;hamcrest.jar;. Main
+
+windows-clean:
+	del /s *.class

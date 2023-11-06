@@ -1,0 +1,6 @@
+Test name: testMultiply
+Points awarded: 10
+Expected: 12
+Result: 12
+
+Overall Test Results: 10/100
