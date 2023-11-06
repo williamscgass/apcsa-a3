@@ -19,10 +19,11 @@ public class Logger {
         }
     }
 
-    public void writeResult(String testName, int numPoints, String expected, String result) {
+    public void writeResult(String testName, int numPoints, String params, String expected, String result) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filepath, true))) {
             writer.append("Test name: " + testName + "\n");
             writer.append("Points awarded: " + numPoints + "\n");
+            writer.append("Arguments: " + params + "\n");
             writer.append("Expected: " + expected + "\n");
             writer.append("Result: " + result + "\n\n");
         } catch (IOException e) {

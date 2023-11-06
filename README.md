@@ -1,7 +1,7 @@
 # AP CSA Assignment 3 - ArrayMethods  
 
 Here are the instructions for Assignment 3: ArrayMethods. This should give you practice in working with arrays, but major topics like Polymorphism are not covered. Before you ask, yes... I skipped assignment 2. Now the assignments line up with the units.  
-This assignment contains three regular questions and one extra credit question, for a max score of 105/100 points.
+This assignment contains three regular questions and one extra credit question, for a max score of 105/100 points. In all questions, the array passsed as argument is non-empty.
 
 ### Windows users -- the makefile works for you now!
 
